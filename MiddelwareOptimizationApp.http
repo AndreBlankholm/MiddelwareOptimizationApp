@@ -1,0 +1,6 @@
+@MiddelwareOptimizationApp_HostAddress = http://localhost:5117
+
+GET {{MiddelwareOptimizationApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
