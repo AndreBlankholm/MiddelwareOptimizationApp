@@ -10,7 +10,7 @@ var app = builder.Build();
 
 app.Use(async (context, next) =>
 {
-    // Check for the presence of "secure=true" query parameter
+    // Check for the presence of "secure=true" query parameter, https simulation
     if (context.Request.Query["secure"] != "true")
     {
         // Block the request as if it were non-HTTPS
